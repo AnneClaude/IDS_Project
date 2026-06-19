@@ -24,5 +24,14 @@ While the headline accuracy figure is reproducible on a random 85/15 split of th
 3. **Model Training:** Trained and compared three models: Decision Tree, Random Forest, and Logistic Regression.
 4. **Evaluation:** Assessed models both in-distribution and on the hold-out dataset using imbalance-robust metrics (MCC, $F_{2}$ score, and per-family recall) with an emphasis on the asymmetric cost of false negatives in a Security Operations Center (SOC).
 
-## Original Source
-This evaluation is based on the tutorial and repository provided by Kostas Ereksonas: [KostasEreksonas/IDS_test](https://github.com/KostasEreksonas/IDS_test).
+## Execution Instructions
+To reproduce the analysis and findings of this project:
+1. Clone this repository to your local machine.
+2. Ensure you have a working Python environment with Jupyter Notebook installed. Required packages include `pandas`, `numpy`, `scikit-learn`, `matplotlib`, and `seaborn`.
+3. Download the dataset from the source linked below.
+4. Open `IDS_Analysis.ipynb` and run the cells sequentially to reproduce the data pipeline, model training, and evaluation.
+
+## Sources & References
+* **Selected Article/Tutorial:** [Intrusion Detection System Using Machine Learning Algorithms (GeeksForGeeks)](https://www.geeksforgeeks.org/machine-learning/intrusion-detection-system-using-machine-learning-algorithms/)
+* **Original GitHub Repository:** [KostasEreksonas/IDS_test](https://github.com/KostasEreksonas/IDS_test)
+* **Dataset Source:** The specific NSL-KDD files used in this project were retrieved from the original author's repository: [NSL_KDD Data Folder](https://github.com/KostasEreksonas/IDS_test/tree/main/data/NSL_KDD)
