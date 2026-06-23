@@ -1,0 +1,13 @@
+Split,Model,Accuracy,Precision,Recall,F1,F2,MCC,ROC-AUC
+Internal Split,Random Forest,0.9971,0.9991,0.9946,0.9968,0.9955,0.9941,0.9999
+Internal Split,Decision Tree,0.9964,0.9962,0.9961,0.9961,0.9961,0.9927,0.9974
+Internal Split,K-Nearest Neighbors,0.9954,0.9952,0.9949,0.995,0.995,0.9907,0.999
+Internal Split,Linear SVM,0.9704,0.9772,0.9591,0.968,0.9626,0.9406,0.9956
+Internal Split,Logistic Regression,0.9699,0.9761,0.9591,0.9675,0.9625,0.9396,0.9958
+Internal Split,Naïve Bayes,0.724,0.9953,0.4113,0.582,0.466,0.5177,0.9786
+Hold-Out (KDDTest+),Random Forest,0.7744,0.9692,0.6235,0.7588,0.6714,0.614,0.9587
+Hold-Out (KDDTest+),Decision Tree,0.7704,0.944,0.6342,0.7587,0.6788,0.5955,0.7646
+Hold-Out (KDDTest+),K-Nearest Neighbors,0.7731,0.9229,0.6563,0.7671,0.6965,0.5889,0.8217
+Hold-Out (KDDTest+),Logistic Regression,0.7559,0.9174,0.6278,0.7454,0.6701,0.5617,0.7842
+Hold-Out (KDDTest+),Linear SVM,0.7484,0.9156,0.6147,0.7356,0.658,0.5502,0.7875
+Hold-Out (KDDTest+),Naïve Bayes,0.5162,0.9707,0.1548,0.267,0.186,0.2561,0.7917
