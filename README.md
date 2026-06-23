@@ -16,7 +16,7 @@ While the headline accuracy figure is reproducible on a random internal split of
 
 ## Repository Structure
 * `IDS_Analysis.ipynb`: The core analytical workspace containing the dynamic data pipeline, feature engineering, and model evaluation loops.
-* `IDS_project_report.pdf`: The comprehensive executive report detailing the problem, methodology, findings, and critical academic analysis.
+* `new_report_IDS.pdf`: The comprehensive executive report detailing the problem, methodology, findings, and critical academic analysis.
 * `requirements.txt`: Strict dependency boundaries for replicating the Python environment.
 * `run.sh`: Shell script to automate environment setup, repository cloning, and execution.
 
@@ -38,7 +38,7 @@ This project is designed for strict reproducibility. To replicate the environmen
      bash run.sh
   3. Open IDS_Analysis.ipynb in your preferred Jupyter environment and execute the cells sequentially.
 ## Sources & References
-Academic Grounding: Tavallaee, M., Bagheri, E., Lu, W., & Ghorbani, A. A. (2009). "A Detailed Analysis of the KDD CUP 99 Data Set." Proceedings of the 2009 IEEE Symposium on Computational Intelligence in Security and Defense Applications.
+Academic Grounding: Tavallaee, M., Bagheri, E., Lu, W., & Ghorbani, A. A. (2009). "A Detailed Analysis of the KDD CUP 99 Data Set." Proceedings of the 2009 IEEE Symposium on Computational Intelligence in Security and Defense Applications. (IDS_Project_source.pdf)
 
 Target Source: Intrusion Detection System Using Machine Learning Algorithms (GeeksForGeeks)
 
